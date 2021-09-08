@@ -1,0 +1,191 @@
+/**
+Mesmo que resto do projeto
+ */
+* {
+    margin: 0;
+    font-size: 100%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+
+}
+
+body {
+    background-color: bisque;
+    line-height: 1.5em;
+}
+
+header {
+    background-color: #6E09E2;
+    color: #FFF;
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#title {
+    padding: 1em;
+    text-align: center;
+}
+
+h1.page_title {
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    font-size: 1.5em;
+}
+
+#menu_navegação {
+    padding: 0.5em;
+    background-color: antiquewhite;
+}
+
+a.home:link,
+a.home:visited,
+a.home:active {
+    color: #333333;
+    text-decoration: none;
+}
+
+a.home:hover {
+    color: mediumspringgreen;
+}
+
+img.avatar {
+    width: 100%;
+}
+
+.clear_float {
+    clear: both;
+}
+
+#main {
+    width: 80%;
+    padding: 1em;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    box-shadow: -5px 0 5px -5px #333, 5px 0 5px -5px #333;
+}
+
+.apresentação {
+    text-align: center;
+}
+
+ul.menu_aulas {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    list-style-type: none;
+}
+
+ul.menu_aulas > li {
+    line-height: 2em;
+    border: 1px solid #FFFFFF;
+    background-color: #6495ED;
+    padding: 0.5em;
+}
+
+ul.menu_aulas > li > a,
+ul.menu_aulas > li > ul > li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+ul.menu_aulas > li > a:hover,
+ul.menu_aulas > li > ul > li > a:hover {
+    text-decoration: none;
+    color: mediumspringgreen;
+}
+
+ul.menu_aulas > li > ul > li {
+    list-style-type: none;
+    background-color: #4FA2D6;
+    border: 1px solid #FFFFFF;
+}
+
+table.tipos {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+thead {
+    background-color: chocolate;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    color: #FFFFFF;
+}
+
+tr:nth-child(even) {
+    background-color: burlywood;
+    padding: 0.5em;
+    line-height: 1.5em;
+}
+
+footer {
+    position: fixed;
+    line-height: 1.5em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: #6E09E2;
+    color: #FFF;
+}
+
+/**
+Só para desafio
+ */
+.red {
+    color: #FF0000;
+}
+
+table {
+
+
+}
+
+td {
+    text-align: center;
+    line-height: 1.5em;
+    padding: 0.5em;
+    border-right: 1px solid black;
+}
+
+tr:nth-child(odd) {
+    backgound-color: antiquewhite;
+}
+
+button {
+    margin: 0.5em;
+    float: right;
+}
+
+.btn.btn-success a {
+    color: #FFFFFF;
+}
+
+.erro_form {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+input {
+    width: 80%;
+}
+
+button.voltar_pra_clientes {
+    width: 80%;
+    float: left;
+}
+
+button.clientes {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
