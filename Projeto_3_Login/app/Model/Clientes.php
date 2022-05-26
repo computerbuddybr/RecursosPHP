@@ -204,7 +204,7 @@ class Clientes extends DBConnect
         }
 
 
-        //Validando o email
+        //Validando o email. Pode ser usado apenas antes do PHP 8.1
         if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
             $form_valido = false;
         }
